@@ -24,7 +24,26 @@ header{
 #wrapper{
     text-align: center;
     padding: 32px;
-    
+    background-color: var(--color-blue)
+}
+
+#wrapper label{
+    color: var(--color-darkblue);
+}
+
+#wrapper input[type="submit"]{
+
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#wrapper input:hover{
+    background-color: var(--color-darkblue);
+    color: var(--color-blue);
+}
+
+#wrapper p{
+    color: var(--color-darkblue)
 }
 
 #logo {
@@ -73,13 +92,6 @@ a:hover{
     text-align: left;
 }
 
-.menulateral{
-    background:#595699;
-    padding: 5px;
-    width: 20%;
-    height: 30%;
-    vertical-align: top;
-}
 
 .formulariologin{
     display:flex;

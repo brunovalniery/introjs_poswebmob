@@ -23,15 +23,17 @@
 
     <div id="wrapper">
         <div class="formulariologin">
-            <label for="html">Login</label>
-            <input type="text" name="cpf" id="cpf"> <br>
-            <label for="html">Senha</label>
-            <input type="password" name="senha" id="senha"> <br>
-    
-            <div class="botoes">
-                <input type="submit" value="Entrar" id="login" />
-                <input type="submit" value="Cancelar" id="cancelar" />
-            </div>
+            <form name="login">
+                <label for="html">Usuário</label>
+                <input type="text" name="usuario" id="usuario"> <br>
+                <label for="html">Senha</label>
+                <input type="password" name="senha" id="senha"> <br>
+        
+                <div class="botoes">
+                    <input type="submit" size="10" value="entrar" id="entrar" onclick="Login();" />
+                    <input type="submit" size="10" value="cancelar" id="cancelar" />
+                </div>
+            </form>
         </div>
 
     </div>
